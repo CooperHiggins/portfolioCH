@@ -5,6 +5,9 @@ body {
 .left {
     text-align: left;
 }
+#date {
+  font-size: 1em;
+}
 hr {
   color: blue;
 }
@@ -34,6 +37,14 @@ a:active {
 a:hover {
     color: #23527c;
     text-decoration: none;
+}
+a.contact {
+    color: white;
+}
+a.contact:hover {
+  color: #337ab7;
+  font-style: none;
+  text-decoration: none;
 }
 .social-nav {
     font-size: 4em;
